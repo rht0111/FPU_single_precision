@@ -28,8 +28,8 @@
 logic [7:0] temp_a;
 logic [7:0] temp_b;
 logic sign_a , sign_b , sign_c;
-logic [7:0] exp_a , exp_b , exp_t , exp_t1;
-logic [7:0] exp_a1 , exp_b1;
+logic [7:0] exp_a , exp_b;
+logic [23:0] exp_a1 , exp_b1 , exp_t , exp_t1;
 logic [7:0] temp_c , temp_c1 , temp_d , temp_d1;
 
 localparam bias = 8'h81;
@@ -109,14 +109,30 @@ assign s [25] = temp_d1 [2];
 assign s [24] = temp_d1 [1];
 assign s [23] = temp_d1 [0];
 
-assign s [22] = exp_t1 [6];
-assign s [21] = exp_t1 [5];
-assign s [20] = exp_t1 [4];
-assign s [19] = exp_t1 [3];
-assign s [18] = exp_t1 [2];
-assign s [17] = exp_t1 [1];
-assign s [16] = exp_t1 [0];
+assign s [22] = exp_t1 [22];
+assign s [21] = exp_t1 [21];
+assign s [20] = exp_t1 [20];
+assign s [19] = exp_t1 [19];
+assign s [18] = exp_t1 [18];
+assign s [17] = exp_t1 [17];
+assign s [16] = exp_t1 [16];
+assign s [15] = exp_t1 [15];
 
-assign s [15:0] = 16'h0000;
+assign s [14] = exp_t1 [14];
+assign s [13] = exp_t1 [13];
+assign s [12] = exp_t1 [12];
+assign s [11] = exp_t1 [11];
+assign s [10] = exp_t1 [10];
+assign s [9] = exp_t1 [9];
+assign s [8] = exp_t1 [8];
+assign s [7] = exp_t1 [7];
+
+assign s [6] = exp_t1 [6];
+assign s [5] = exp_t1 [5];
+assign s [4] = exp_t1 [4];
+assign s [3] = exp_t1 [3];
+assign s [2] = exp_t1 [2];
+assign s [1] = exp_t1 [1];
+assign s [0] = exp_t1 [0];
 
 endmodule
