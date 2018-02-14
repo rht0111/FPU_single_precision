@@ -135,4 +135,11 @@ assign s [2] = exp_t1 [2];
 assign s [1] = exp_t1 [1];
 assign s [0] = exp_t1 [0];
 
+//alternatively
+// assign s [31] = sign_c;
+
+// assign s [30 : 23] = temp_d1 [7 : 0];
+
+// assign s [22 : 0] = exp_t1 [22 : 0];
+
 endmodule
