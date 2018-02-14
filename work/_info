@@ -1,0 +1,130 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Modeltech_pe_edu_10.4a/examples
+vadder
+Z0 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+Z1 !s110 1518613303
+!i10b 1
+!s100 5j]6M9od_2X6cSNd_`_[`3
+IjaLP1]>:X2gl]3IIKO1X83
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 !s105 adder_8bit_sv_unit
+S1
+Z4 dC:/Users/venatus/Documents/git_rht0111/FPU_single_precision
+Z5 w1518613196
+Z6 8C:/Users/venatus/Documents/git_rht0111/FPU_single_precision/adder_8bit.sv
+Z7 FC:/Users/venatus/Documents/git_rht0111/FPU_single_precision/adder_8bit.sv
+Z8 L0 23
+Z9 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z10 !s108 1518613303.000000
+Z11 !s107 C:/Users/venatus/Documents/git_rht0111/FPU_single_precision/adder_8bit.sv|
+Z12 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/venatus/Documents/git_rht0111/FPU_single_precision/adder_8bit.sv|
+!s101 -O0
+!i113 1
+Z13 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vadder_8bit
+R0
+R1
+!i10b 1
+!s100 F`UaLQ^5Vb]jX7Jhl8knh0
+Im2Z3U5N?djEjHR5oV[?>M2
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 39
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+!i113 1
+R13
+vfpa
+R0
+R1
+!i10b 1
+!s100 ;GIz@QcfR>Ve6a[g:o9`K3
+I_F0OVlaQIo<jC84z;zU5S3
+R2
+!s105 FP_add_v1_sv_unit
+S1
+R4
+w1518613189
+8C:/Users/venatus/Documents/git_rht0111/FPU_single_precision/FP_add_v1.sv
+FC:/Users/venatus/Documents/git_rht0111/FPU_single_precision/FP_add_v1.sv
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/venatus/Documents/git_rht0111/FPU_single_precision/FP_add_v1.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/venatus/Documents/git_rht0111/FPU_single_precision/FP_add_v1.sv|
+!s101 -O0
+!i113 1
+R13
+vslice
+R0
+R1
+!i10b 1
+!s100 GJNm2RQ@TnZmbg<jQoY2A2
+ICm1W59j9_^lPXWR9AHV[Z2
+R2
+!s105 slice_sv_unit
+S1
+R4
+w1518613192
+8C:/Users/venatus/Documents/git_rht0111/FPU_single_precision/slice.sv
+FC:/Users/venatus/Documents/git_rht0111/FPU_single_precision/slice.sv
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/venatus/Documents/git_rht0111/FPU_single_precision/slice.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/venatus/Documents/git_rht0111/FPU_single_precision/slice.sv|
+!s101 -O0
+!i113 1
+R13
+vslice_m
+R0
+R1
+!i10b 1
+!s100 D`3h<421P<z]B=<F6NBoQ3
+IM4`E5=:PEdl46Gog7=:@G0
+R2
+!s105 slice_m_sv_unit
+S1
+R4
+w1518613195
+8C:/Users/venatus/Documents/git_rht0111/FPU_single_precision/slice_m.sv
+FC:/Users/venatus/Documents/git_rht0111/FPU_single_precision/slice_m.sv
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/venatus/Documents/git_rht0111/FPU_single_precision/slice_m.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/venatus/Documents/git_rht0111/FPU_single_precision/slice_m.sv|
+!s101 -O0
+!i113 1
+R13
