@@ -68,6 +68,9 @@ adder_8bit add2 (
 	.s(exp_b)
 	);
 
+// alternatively
+// assign exp_b = temp_b + 8'h81 ;
+
 slice_m slice3 (
 	.a(a),
 	.temp(exp_a1)

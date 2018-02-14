@@ -53,4 +53,8 @@ assign temp [2] = a[2];
 assign temp [1] = a[1];
 assign temp [0] = a[0];
 
+// alternatively
+// assign temp [23] = 1'b1;
+// assign temp [22:0] = a[22:0];
+
 endmodule

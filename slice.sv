@@ -35,6 +35,8 @@ assign temp [2] = a[25];
 assign temp [1] = a[24];
 assign temp [0] = a[23];
 
+//alternatively
+// assign temp [7:0] = a[30:23];
 
 // code below can only be used in clocked body
 // initial begin
