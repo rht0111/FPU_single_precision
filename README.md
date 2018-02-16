@@ -1,3 +1,8 @@
 # FPU_single_precision
 
-floating point (IEEE 754) adder without clk or reset, with limited functionality to accept 32-bit positive binary as inputs.
+floating point unit (IEEE 754) (add and mul) without clk or reset.
+
+add unit works with positive 32-bit binaries  (single precision) (excluding negatives, double precision , zero, denormalized, infinity, NaN ) @16.02.2018
+
+mul unit works with positive, negative 32-bit binary (single precision), zero, infinity (excluding double precision, denormalized, NaN) @coming soon
+
