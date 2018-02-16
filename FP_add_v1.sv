@@ -20,6 +20,8 @@
  *
  */
 
+// https://www.youtube.com/watch?v=mKJiD2ZAlwM
+
  module fpa #(parameter size = 32)
  	(input logic [size-1 : 0] a, [size-1 : 0] b,
  	output logic [size-1 : 0] s
@@ -37,11 +39,14 @@ localparam bias1 = 8'h7f;
 localparam a1 = 32'h420f0000;
 localparam b1 = 32'h41a40000;
 
+//unnecessary variables were created to verify every step and signals during simulation
+
 assign temp_c = bias;
 assign temp_c1 = bias1;
 assign a = a1;
 assign b = b1;
 
+//this can also be done using single line of code
 slice slice1 (
 	.a(a),
 	.temp(temp_a)
@@ -54,7 +59,8 @@ slice slice2 (
 
 assign sign_a = a [size-1];
 assign sign_b = b [size-1];
-assign sign_c = sign_a & sign_b;
+// unnecessary step, as both inputs are positive (left for future improvements)
+assign sign_c = sign_a & sign_b; 
 
 adder_8bit add1 (
 	.a(temp_a),
